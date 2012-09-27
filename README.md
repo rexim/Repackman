@@ -26,6 +26,12 @@ or
 1. $ mvn site:run
 2. go to [http://localhost:8080/](http://localhost:8080/)
 
+**Special for kolipass**: you need to learn how to use Maven Site
+Plugin to write documentation. Please, read
+[this](http://maven.apache.org/plugins/maven-site-plugin/) and
+especially
+[this](http://maven.apache.org/doxia/references/apt-format.html).
+
 # Authors
 
 ## Programming
