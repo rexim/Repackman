@@ -1,0 +1,14 @@
+
+<project name="Repackman">
+  <body>
+    <menu name="Documentation">
+      <item name="About" href="index.html" />
+      <item name="States" href="states.html" />
+      <item name="File tree" href="file-tree.html" />
+      <item name="Configuration file format" href="configuration-file-format.html" />
+      <item name="Score table format" href="score-table-format.html" />
+      <item name="Level file format" href="level-file-format.html" />
+      <item name="Skin file format" href="skin-file-format.html" />
+    </menu>
+  </body>
+</project>

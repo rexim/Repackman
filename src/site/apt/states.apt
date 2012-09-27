@@ -1,0 +1,55 @@
+States
+
+  <<<FIXME: add a Pause state from where we can go the Settings without quiting the game >>>
+
+  <<<FIXME: rename  Table of Results to Score Table>>>
+
+[images/states.png] States
+
+  The game consists of several states:
+
+  * Splash
+
+  * Menu
+
+  * Settings
+
+  * Table of Results
+
+  * Level
+
+  * Pause
+
+  * Enter Name
+
+  []
+
+  From any state we can quit the game.
+
+* Splash
+
+  The game starts from this state. This is just a splash screen. We
+  are watching a picture, while resources are loading. After the
+  Splash the game switches to the Menu state.
+
+* Menu
+
+  It is a main menu for the game. From the Menu we can go to the
+  Setting, Table of Results or Level states.
+
+* Settings
+
+  In this state we can configure the game. After configuring there is
+  an opportunity to get back to the main menu.
+
+* Table of results
+
+  <<<FIXME: write the description>>>
+
+* Level
+
+  <<<FIXME: write the description>>>
+
+* Enter Name
+
+  <<<FIXME: write the description>>>

@@ -7,7 +7,7 @@ expect it to be something great. We do it just for practice.
 
 # Usage
 
-You need
+To run the game you need
 [JDK 7](http://www.oracle.com/technetwork/java/javase/downloads/index.html),
 [Apache Maven](http://maven.apache.org/).
 
@@ -15,6 +15,16 @@ You need
 2. $ mvn nativedependencies:copy
 3. $ mvn compiler:compile
 4. $ mvn exec:exec
+
+To read documentation:
+
+1. $ mvn site:site
+2. open file target/site/index.html with your favorite browser.
+
+or
+
+1. $ mvn site:run
+2. go to [http://localhost:8080/](http://localhost:8080/)
 
 # Authors
 
