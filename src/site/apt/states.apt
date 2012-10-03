@@ -43,7 +43,29 @@ States
 
 * Settings
 
-  <<<FIXME: write the description>>>
+  In this state we can modify game's settings, which are contained in
+  a {{{/settings-file-format.html}settings file}}. All game's
+  parameters divided by groups such as:
+
+  * Video
+
+  * Sound
+  
+  * Control
+
+  * Skin
+
+  []
+
+  This groups are placed on a one screen. Every group looks like a
+  frame. That frame contains elements for changing appropriate game's
+  parameters.
+
+  There are also two buttons on the screen: "Apply" and "Cancel". Each
+  of them brings you back to the Main Menu. But only "Apply" applies
+  your changes.
+
+  <<<FIXME: it would be nice to make a picture of that>>>
 
 * Score Table
 
