@@ -70,7 +70,8 @@ States
 
 * Score Table
 
-  <<<FIXME: write the description>>>
+  This state shows us a table of scores of other players. This table is
+  contained in a {{{/score-table-format.html}score table file}}. 
 
 * Level
 
