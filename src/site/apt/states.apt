@@ -63,9 +63,10 @@ States
 
   There are also two buttons on the screen: "Apply" and "Cancel". Each
   of them brings you back to the Main Menu. But only "Apply" applies
-  your changes.
+  your changes. The applied changes are written to the
+  {{{/settings-file-format.html}settings file}}.
 
-  <<<FIXME: it would be nice to make a picture of that>>>
+  <<<FIXME: it would be nice to add some pictures here>>>
 
 * Score Table
 
