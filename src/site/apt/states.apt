@@ -30,15 +30,16 @@ States
 
 * Main Menu
 
-  The Main Menu consists of several options:
+  The Main Menu consists of several items, which can switch the game
+  to another state:
   
-  * New game
+  * New game (to the Level state)
 
-  * Score table
+  * Score table (to the Score Table state)
 
-  * Settings
+  * Settings (to the Settings state)
 
-  * Quit
+  * Quit (quit the game)
 
 * Settings
 
