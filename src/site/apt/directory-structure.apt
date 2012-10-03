@@ -1,0 +1,29 @@
+Directory structure
+
+  Here is represented directory structure of the game:
+
+  * Repackman/
+  
+    * repackman.jar
+
+    * {{{/settings-file-format.html}settings.ini}}
+
+    * {{{/score-table-format.html}score.xml}}
+    
+    * {{{/level-file-format.html}levels/}}
+    
+      * levels.xml
+
+      * level-01.txt
+
+      * level-02.txt
+
+      * ...
+
+      * level-N.txt
+
+    * {{{/skin-file-format.html}skins/}}
+
+      * default.zip
+
+      * ...
