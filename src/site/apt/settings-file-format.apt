@@ -1,3 +1,34 @@
 Settings file format
 
-  <<<FIXME: write this page>>> 
+  This file intended to keep game's settings. It uses
+  {{{http://en.wikipedia.org/wiki/INI_file}INI file format}}. Example
+  of structure:
+  
+---
+[Video]
+
+width=800
+height=600
+bpp=24
+...
+
+[Sound]
+
+music_volume=100
+sound_volume=100
+...
+
+[Control]
+
+left=A
+right=D
+up=W
+down=S
+...
+
+[Skin]
+
+path=skins/default.zip
+...
+---
+
