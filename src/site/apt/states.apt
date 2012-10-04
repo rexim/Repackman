@@ -74,9 +74,9 @@ States
 
   This state shows us a table of scores of other players. This table
   is contained in a {{{/score-table-format.html}score table
-  file}}. The Score Table screen consists of a table itself and button
-  "Back", by clicking which we can get back to the Main Menu
-  state. The table consists of columns:
+  file}}. The Score Table screen consists of a table itself and a
+  button "Back", by clicking which we can get back to the Main Menu
+  state. The table consists of following columns:
 
   * Player's name
 
@@ -90,14 +90,38 @@ States
 
   <<<FIXME: it would be nice to add some pictures here>>>
 
+  <<<FIXME: is it really necessary to show detailed information
+  about player's score? (score by levels and time by levels)>>>
+
 * Level
 
-  <<<FIXME: write the description>>>
+  This is an essential state, because it is the actual game. Each
+  level are loaded from {{{/level-file-format.html}an appropriate
+  file}}. After passing the current level, the next level is
+  loaded. That cycle repeats until all levels are passed. After
+  passing the all levels, game switches to the Enter Name state. Also,
+  the game switches to that state in case of death of main
+  character. Another state the game can switch to is the Pause Menu
+  state (by pressing Escape, for example).
 
 * Pause Menu
 
-  <<<FIXME: write the description>>>
+  The Pause Menu consist of following items:
+
+  * Back to game (back to the Level state, that was paused)
+
+  * Settings (to the Settings state)
+
+  * Main menu (to the Main Menu state)
+
+  * Quit (quit the game)
+
+  []
+
+  <<NOTE:>> A state path Level->Pause Menu->Settings->Main Menu is
+  <<IMPOSSIBLE>>! <<<FIXME: how to show it on the diagramm?>>>
 
 * Enter Name
 
-  <<<FIXME: write the description>>>
+  Here we can enter player's name to save our score. After entering
+  the name, the game switches to the Score Table state.
