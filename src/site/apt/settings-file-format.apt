@@ -1,14 +1,13 @@
 Settings file format
 
   This file intended to keep game's settings. It uses
-  {{{http://en.wikipedia.org/wiki/INI_file}INI file format}}. Example
-  of structure:
+  {{{http://en.wikipedia.org/wiki/INI_file}INI file format}}. An
+  example of a file's structure:
   
 ---
 [Video]
 
-width=800
-height=600
+resolution=800x600
 bpp=24
 ...
 
