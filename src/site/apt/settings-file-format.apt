@@ -6,23 +6,22 @@ Settings file format
   
 ---
 [Video]
-
-resolution=800x600
+screen_width=800
+screen_height=600
 bpp=24
 ...
 
 [Sound]
-
 music_volume=100
 sound_volume=100
 ...
 
 [Control]
 
-left=A
-right=D
-up=W
-down=S
+left=27
+right=26
+up=26
+down=28
 ...
 
 [Skin]
