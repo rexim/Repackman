@@ -10,17 +10,7 @@ Directory structure
 
     * {{{/score-table-format.html}score.xml}}
     
-    * {{{/level-file-format.html}levels/}}
-    
-      * levels.xml
-
-      * level-01.txt
-
-      * level-02.txt
-
-      * ...
-
-      * level-N.txt
+    * {{{/level-file-format.html}level.txt}}
 
     * {{{/skin-file-format.html}skins/}}
 

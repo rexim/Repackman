@@ -80,9 +80,9 @@ States
 
   * Player's name
 
-  * Total score
+  * Score
 
-  * Total play time
+  * Time
 
   * Passed levels
 
@@ -90,19 +90,15 @@ States
 
   <<<FIXME: it would be nice to add some pictures here>>>
 
-  <<<FIXME: is it really necessary to show detailed information
-  about player's score? (score by levels and time by levels)>>>
-
 * Level
 
-  This is an essential state, because it is the actual game. Each
-  level are loaded from {{{/level-file-format.html}an appropriate
-  file}}. After passing the current level, the next level is
-  loaded. That cycle repeats until all levels are passed. After
-  passing the all levels, game switches to the Enter Name state. Also,
-  the game switches to that state in case of death of main
-  character. Another state the game can switch to is the Pause Menu
-  state (by pressing Escape, for example).
+  This is an essential state, because it is the actual game. There is
+  only one level which is loaded from {{{/level-file-format.html}the
+  level file}}. After passing the current level you play the same
+  level but with higher difficulty. This cycle repeats until the death
+  of Pac-Man. After that game switches to the Enter Name
+  state. Another state the game can switch to is the Pause Menu state
+  (by pressing Escape, for example).
 
 * Pause Menu
 
